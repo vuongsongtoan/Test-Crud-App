@@ -1,0 +1,22 @@
+INSERT INTO dbo.DonHang (
+	ID_don_hang,
+	ID_don_hang,
+	SDT_KhachHang,
+	ID_NhanVien,
+	Trang_thai,
+	Ghi_chu_trang_thai,
+	Gio_tao_don,
+	Gio_hoan_thanh,
+	Ghi_chu_don_hang,
+	Tong_tien)
+VALUES (
+	'{{insert_form.formData.ID_don_hang}}',
+	'{{insert_form.formData.ID_don_hang}}',
+	'{{insert_form.formData.SDT_KhachHang}}',
+	'{{insert_form.formData.ID_NhanVien}}',
+	'{{insert_form.formData.Trang_thai}}',
+	'{{insert_form.formData.Ghi_chu_trang_thai}}',
+	'{{insert_form.formData.Gio_tao_don}}',
+	'{{insert_form.formData.Gio_hoan_thanh}}',
+	'{{insert_form.formData.Ghi_chu_don_hang}}',
+	'{{insert_form.formData.Tong_tien}}');

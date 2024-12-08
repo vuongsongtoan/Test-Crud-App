@@ -1,0 +1,6 @@
+UPDATE dbo.QuanLyCaLam SET
+		ID_NhanVien = '{{update_form.fieldState.ID_NhanVien.isVisible ? update_form.formData.ID_NhanVien : update_form.sourceData.ID_NhanVien}}',
+		ID_calam = '{{update_form.fieldState.ID_calam.isVisible ? update_form.formData.ID_calam : update_form.sourceData.ID_calam}}',
+    GioVaoLam = '{{update_form.fieldState.GioVaoLam.isVisible ? update_form.formData.GioVaoLam : update_form.sourceData.GioVaoLam}}',
+		GioRaVe = '{{update_form.fieldState.GioRaVe.isVisible ? update_form.formData.GioRaVe : update_form.sourceData.GioRaVe}}'
+WHERE ID_NhanVien = {{data_table.selectedRow.ID_NhanVien}};

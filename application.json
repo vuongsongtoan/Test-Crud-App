@@ -15,6 +15,22 @@
     {
       "id": "Dbo.NhanVien",
       "isDefault": false
+    },
+    {
+      "id": "Dbo.CaLam",
+      "isDefault": false
+    },
+    {
+      "id": "Dbo.DonHang",
+      "isDefault": false
+    },
+    {
+      "id": "Dbo.QuanLyCaLam",
+      "isDefault": false
+    },
+    {
+      "id": "Dbo.KhachHang",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
