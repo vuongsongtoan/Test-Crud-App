@@ -1,0 +1,10 @@
+UPDATE dbo.NhanVien SET
+		Ten = '{{update_form.fieldState.Ten.isVisible ? update_form.formData.Ten : update_form.sourceData.Ten}}',
+		SDT_Nhanvien = '{{update_form.fieldState.SDT_Nhanvien.isVisible ? update_form.formData.SDT_Nhanvien : update_form.sourceData.SDT_Nhanvien}}',
+    Trang_thai = '{{update_form.fieldState.Trang_thai.isVisible ? update_form.formData.Trang_thai : update_form.sourceData.Trang_thai}}',
+		Vi_tri = '{{update_form.fieldState.Vi_tri.isVisible ? update_form.formData.Vi_tri : update_form.sourceData.Vi_tri}}',
+		He_so_luong = '{{update_form.fieldState.He_so_luong.isVisible ? update_form.formData.He_so_luong : update_form.sourceData.He_so_luong}}',
+		Bang_cap = '{{update_form.fieldState.Bang_cap.isVisible ? update_form.formData.Bang_cap : update_form.sourceData.Bang_cap}}',
+		Ngay_bat_dau = '{{update_form.fieldState.Ngay_bat_dau.isVisible ? update_form.formData.Ngay_bat_dau : update_form.sourceData.Ngay_bat_dau}}',
+		ID_buttoan = '{{update_form.fieldState.ID_buttoan.isVisible ? update_form.formData.ID_buttoan : update_form.sourceData.ID_buttoan}}'
+WHERE ID_NhanVien = {{data_table.selectedRow.ID_NhanVien}};
