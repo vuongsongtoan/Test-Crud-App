@@ -13,23 +13,7 @@
       "isDefault": true
     },
     {
-      "id": "Dbo.NhanVien",
-      "isDefault": false
-    },
-    {
-      "id": "Dbo.CaLam",
-      "isDefault": false
-    },
-    {
-      "id": "Dbo.DonHang",
-      "isDefault": false
-    },
-    {
-      "id": "Dbo.QuanLyCaLam",
-      "isDefault": false
-    },
-    {
-      "id": "Dbo.KhachHang",
+      "id": "Dbo.NhanVien2",
       "isDefault": false
     }
   ],

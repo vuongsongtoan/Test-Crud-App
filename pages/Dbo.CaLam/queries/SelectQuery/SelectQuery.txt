@@ -1,4 +1,0 @@
-SELECT * FROM dbo.CaLam
-ORDER BY {{data_table.sortOrder.column || 'ID_calam'}} {{data_table.sortOrder.order || "ASC"}}
-OFFSET {{(data_table.pageNo - 1) * data_table.pageSize}} ROWS
-FETCH NEXT {{data_table.pageSize}} ROWS ONLY;

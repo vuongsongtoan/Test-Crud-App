@@ -1,2 +1,0 @@
-DELETE FROM dbo.CaLam
-  WHERE ID_calam = {{data_table.triggeredRow.ID_calam}};

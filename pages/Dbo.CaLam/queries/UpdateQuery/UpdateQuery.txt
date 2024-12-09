@@ -1,5 +1,0 @@
-UPDATE dbo.CaLam SET
-		Ngay = '{{update_form.fieldState.Ngay.isVisible ? update_form.formData.Ngay : update_form.sourceData.Ngay}}',
-    GioBatDau = '{{update_form.fieldState.GioBatDau.isVisible ? update_form.formData.GioBatDau : update_form.sourceData.GioBatDau}}',
-		GioKetThuc = '{{update_form.fieldState.GioKetThuc.isVisible ? update_form.formData.GioKetThuc : update_form.sourceData.GioKetThuc}}'
-WHERE ID_calam = {{data_table.selectedRow.ID_calam}};

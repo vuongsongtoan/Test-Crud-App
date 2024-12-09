@@ -1,0 +1,12 @@
+INSERT INTO dbo.NhanVien (
+	ID_NhanVien,
+	SDT_Nhanvien,
+	Ten,
+	Vi_tri,
+	ID_buttoan)
+VALUES (
+	'{{insert_form.formData.ID_NhanVien}}',
+	'{{insert_form.formData.SDT_Nhanvien}}',
+	'{{insert_form.formData.Ten}}',
+	'{{insert_form.formData.Vi_tri}}',
+	'{{insert_form.formData.ID_buttoan}}');

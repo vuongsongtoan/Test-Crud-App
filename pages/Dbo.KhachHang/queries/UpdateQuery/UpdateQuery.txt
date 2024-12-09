@@ -1,6 +1,0 @@
-UPDATE dbo.KhachHang SET
-		SDT_KhachHang = '{{update_form.fieldState.SDT_KhachHang.isVisible ? update_form.formData.SDT_KhachHang : update_form.sourceData.SDT_KhachHang}}',
-		Ten = '{{update_form.fieldState.Ten.isVisible ? update_form.formData.Ten : update_form.sourceData.Ten}}',
-    Loai_KH = '{{update_form.fieldState.Loai_KH.isVisible ? update_form.formData.Loai_KH : update_form.sourceData.Loai_KH}}',
-		Tong_HoaDon = '{{update_form.fieldState.Tong_HoaDon.isVisible ? update_form.formData.Tong_HoaDon : update_form.sourceData.Tong_HoaDon}}'
-WHERE ID_KhachHang = {{data_table.selectedRow.ID_KhachHang}};
